@@ -1,0 +1,35 @@
+# ─────────────────────────────
+# Rank 称号配置
+# ─────────────────────────────
+# chat = 聊天格式: %1$s=玩家名, %2$s=消息
+#   例: "&4[&c管理员&4] &f%1$s&7: &f%2$s"
+ranks:
+  管理员:
+    prefix: "&4[&c管理员&4]"
+    suffix: "&4"
+    chat: "&4[&c管理员&4] &r%1$s&7: &f%2$s"
+    rainbow: false
+    blink: false
+    blinkColor: "&6"
+
+  战神:
+    prefix: "&c[&4⚔&c]"
+    suffix: "&c"
+    chat: "&c[&4⚔&c] &r%1$s&7: &f%2$s"
+    rainbow: true
+    blink: false
+
+  VIP:
+    prefix: "&6[&eVIP&6]"
+    suffix: "&6"
+    chat: "&6[&eVIP&6] &r%1$s&7: &f%2$s"
+    rainbow: false
+    blink: true
+    blinkColor: "&f"
+
+  普通:
+    prefix: ""
+    suffix: ""
+    chat: "&7%1$s&7: &f%2$s"
+    rainbow: false
+    blink: false

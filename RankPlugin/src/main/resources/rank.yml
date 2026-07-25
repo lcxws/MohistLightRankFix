@@ -1,0 +1,124 @@
+# ─────────────────────────────
+# Rank 称号配置
+# ─────────────────────────────
+# chat = 聊天格式: %1$s=玩家名, %2$s=消息
+#   例: "&4[&c管理员&4] &f%1$s&7: &f%2$s"
+ranks:
+  管理员:
+    prefix: '&4[&c管理员&4]'
+    suffix: '&4'
+    chat: '&4[&c管理员&4] &r%1$s&7: &f%2$s'
+    rainbow: false
+    blink: false
+    blinkColor: '&6'
+
+  战神:
+    prefix: '&c[&4⚔&c]'
+    suffix: '&c'
+    chat: '&c[&4⚔&c] &r%1$s&7: &f%2$s'
+    rainbow: true
+    blink: false
+
+  VIP:
+    prefix: '&6[&eVIP&6]'
+    suffix: '&6'
+    chat: '&6[&eVIP&6] &r%1$s&7: &f%2$s'
+    rainbow: false
+    blink: true
+    blinkColor: '&f'
+
+  普通:
+    prefix: ''
+    suffix: ''
+    chat: '&7%1$s&7: &f%2$s'
+    rainbow: false
+    blink: false
+
+  爱与和平:
+    prefix: '&d[&f爱与和平&d]'
+    suffix: '&f'
+    chat: '&d[&f爱与和平&d] &r%1$s&7: &f%2$s'
+    rainbow: false
+    blink: false
+    blinkColor: '&f'
+
+  因为不知道叫什么所以就叫这个:
+    prefix: '&c[因为不知道叫什么所以就叫这个]'
+    suffix: '&c'
+    chat: '&c[因为不知道叫什么所以就叫这个] &r%1$s&7: &f%2$s'
+    rainbow: true
+    blink: false
+
+  爱与和平owner:
+    prefix: '&f[爱与和平]'
+    suffix: '&4[owner]'
+    chat: '&f[爱与和平] &r%1$s&4[owner]&7: &f%2$s'
+    rainbow: false
+    blink: false
+    blinkColor: '&f'
+
+  Abigail:
+    prefix: '&6[&eAbigail&6]'
+    suffix: '&6'
+    chat: '&6[&eAbigail&6] &r%1$s&7: &f%2$s'
+    rainbow: false
+    blink: false
+
+  神秘腐竹:
+    prefix: '&b[&3神秘&b] &c腐竹'
+    suffix: '&f'
+    chat: '&b[&3神秘&b] &c腐竹 &r%1$s&7: &f%2$s'
+    rainbow: false
+    blink: false
+
+  恭喜LHJ回归:
+    prefix: '&6[&e✨&6] &6[&e⚜&c皇&6&e⚜&6] &e☀'
+    suffix: ' &6✦ &e荣归故里 &6✦ &c[&6♛&eLHJ&6♛&c]'
+    chat: '&6[&e✨&6] &6[&e⚜&c皇&6&e⚜&6] &e☀ &r%1$s &6✦ &e荣归故里 &6✦ &c[&6♛&eLHJ&6♛&c]&7: &f%2$s'
+    rainbow: false
+    blink: true
+    blinkColor: '&e'
+
+  欢迎LHJ回归:
+    prefix: '&6[&eLHJ回归&6]'
+    suffix: ' &e✦'
+    chat: '&6[&eLHJ回归&6] &r%1$s &e✦&7: &f%2$s'
+    rainbow: false
+    blink: false
+
+  龙之终结者:
+    prefix: '&5[&d✦龙陨&5]'
+    suffix: ' &d⚔'
+    chat: '&5[&d✦龙陨&5] &r%1$s &d⚔&7: &f%2$s'
+    rainbow: false
+    blink: false
+    blinkColor: '&f'
+
+  喵星守护者:
+    prefix: '&7[&d🐾&7] &d[&7喵星&d]'
+    suffix: ' &7🐾 &d永远怀念'
+    chat: '&7[&d🐾&7] &d[&7喵星&d] &r%1$s &7🐾 &d永远怀念&7: &f%2$s'
+    rainbow: false
+    blink: false
+
+  高ping霸主:
+    prefix: '&c[&6高ping&c]'
+    suffix: ' &6⚡谁与争锋'
+    chat: '&c[&6高ping&c] &r%1$s &6⚡谁与争锋&7: &f%2$s'
+    rainbow: false
+    blink: false
+
+  喵:
+    prefix: '&7[&d喵&7]'
+    suffix: ''
+    chat: '&7[&d喵&7] &r%1$s&7: &f%2$s'
+    rainbow: false
+    blink: false
+
+players:
+  Abigail2227: Abigail
+  Ricardo: 高ping霸主
+  lczdw: 高ping霸主
+  Abigail27: Abigail
+  zhaoyc729: 喵
+  lcxws: 神秘腐竹
