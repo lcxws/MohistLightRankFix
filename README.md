@@ -64,8 +64,6 @@ ranks:
 Forge 模组聊天监听失效
 由于插件通过 setCancelled(true) 拦截了原始聊天事件，因此所有依赖 Forge ServerChatEvent 的模组（如某些聊天指令模组）将无法监听到玩家的聊天内容。这是为了修复 Mohist 下玩家名显示异常而做出的必要牺牲。
 
-彩虹/闪烁效果
-这些效果依赖于客户端渲染支持（如安装了 OptiFine 或自定义字体模组），若客户端不支持，则仅显示普通颜色。
 
 仅支持 Mohist 核心
 本插件专为 Mohist 1.20.1 设计，在纯 Bukkit/Spigot 或 Paper 服务端上可能无法正常工作（因为不存在 <user> 问题），请勿用于其他核心。
